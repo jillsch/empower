@@ -1,35 +1,35 @@
 @font-face {
   font-family: "Brandon-Bold";
-  src: url('../Brandon_bld.otf') format('opentype');
+  src: url("../Brandon_bld.otf") format("opentype");
 }
 
-@@font-face {
+@font-face {
   font-family: "Brandon-Med";
-  src: url('../Brandon_med.otf') format('opentype');
+  src: url("../Brandon_med.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Brandon-Light";
-  src: url('../Brandon_light.otf') format('opentype');
+  src: url("../Brandon_light.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Savoy-Regular";
-  src: url('../Savoy_Regular.ttf') format('truetype');
+  src: url("../Savoy_Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Savoy-Bold";
-  src: url('../Savoy_Bold.ttf') format('truetype');
+  src: url("../Savoy_Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Xtreem-Thin";
-  src: url('../XtreemThin.ttf') format('truetype');
+  src: url("../XtreemThin.ttf") format("truetype");
 }
 
 h1 {
-  font-family: "Savoy-Regular"; serif;
+  font-family: "Savoy-Regular", serif;
   font-size: 70px;
   letter-spacing: 1px;
   color: white;
@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Savoy-Regular"; serif;
+  font-family: "Savoy-Regular", serif;
   font-size: 47px;
   color: #1f1f24;
   text-align: center;
@@ -91,11 +91,11 @@ body {
 
 header {
   background-color: #bcb2b2;
-  height: 655px;
+  /* height: 655px; */
+  margin-bottom: 20px;
 }
 
 header button {
-
 }
 
 .compliment-section {
@@ -118,10 +118,14 @@ header button {
   margin: 0 12px;
 }
 
+.image-section {
+  margin-bottom: 20px;
+}
+
 button {
   background-color: #1f1f24;
   color: white;
-  font-family: "Brandon-Bold"; sans-serif;
+  font-family: "Brandon-Bold" sans-serif;
   font-size: 10px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -158,7 +162,7 @@ header h6 a {
 }
 
 header h1 {
- padding-top: 80px;
+  padding-top: 80px;
 }
 
 .call-to-action {
@@ -167,11 +171,10 @@ header h1 {
   margin-top: 80px;
 }
 
-
 /* next section */
 
 .carrieanne-image {
-  background: url('./images/empoweredwoman-carrieanne.png');
+  background: url("/images/empoweredwoman-carrieanne.png");
   background-size: cover;
   height: 300px;
   width: 100%;
@@ -180,7 +183,6 @@ header h1 {
 .carrieanne-image img {
   padding-top: 20px;
   width: 100vw;
-
 }
 
 .text-section {
@@ -189,12 +191,12 @@ header h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .greyblock-section {
   background-color: #f2f2f2;
   height: 900px;
+  margin-bottom: 20px;
 }
 
 .greyblock-section img {
@@ -209,7 +211,53 @@ header h1 {
 }
 
 .greyblock-section hr {
-  border: none
+  border: none;
   color: #bcb2b2;
   line-height: 1px;
+}
+
+.love-notes-section {
+  margin-bottom: 20px;
+}
+
+.love-notes-section img {
+  width: 100%;
+}
+
+.lovenote-images-section {
+  background: #bcb2b2;
+  height: 300px;
+}
+
+.love-notes-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.love-notes-section img {
+  width: 100%;
+}
+
+.love-notes-section h5 {
+  font-family: "Savoy-Bold";
+  font-size: 30px;
+  color: black;
+}
+
+.love-notes-section .top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  font-family: "Brandon-Light", sans-serif;
+  text-align: center;
+  color: white;
+  background: blue;
+}
+
+footer .links {
+  padding: 5px;
 }

@@ -47,7 +47,7 @@ h2 {
 
 h3 {
   font-family: "Brandon-Bold", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -57,7 +57,7 @@ h3 {
 h4 {
   font-family: "Brandon-Med", sans-serif;
   font-size: 28px;
-  letter-spacing: 1.5px;
+  letter-spacing: 2.2px;
   color: #a67d72;
   text-align: center;
   text-transform: uppercase;
@@ -70,7 +70,6 @@ h5 {
   font-size: 75px;
   color: white;
   font-weight: 100;
-  padding-bottom: 20px;
 }
 
 h6 {
@@ -83,19 +82,70 @@ h6 {
   text-transform: uppercase;
 }
 
+p {
+  font-family: "Brandon-Light", serif;
+  font-size: 20px;
+}
+
 body {
-  padding: 20px;
+  padding: 20px 20px 0 20px;
 }
 
 /* header */
 
 header {
   background-color: #bcb2b2;
-  /* height: 655px; */
   margin-bottom: 20px;
 }
 
+header img {
+  height: auto;
+  width: auto;
+  max-width: 175px;
+  max-height: 175px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  margin-bottom: 170px;
+}
+
+header h1 {
+  margin-bottom: 60px;
+}
+
 header button {
+  margin-bottom: 60px;
+}
+
+button {
+  background-color: #1f1f24;
+  color: white;
+  font-family: "Brandon-Bold" sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  height: 50px;
+  width: 275px;
+  border: none;
+}
+
+header h6 a {
+  position: fixed;
+  right: 50px;
+  top: 45px;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
 }
 
 .compliment-section {
@@ -106,6 +156,10 @@ header button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.compliment-section h5 {
+  margin-bottom: 20px;
 }
 
 .compliment-box {
@@ -122,61 +176,16 @@ header button {
   margin-bottom: 20px;
 }
 
-button {
-  background-color: #1f1f24;
-  color: white;
-  font-family: "Brandon-Bold" sans-serif;
-  font-size: 10px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  height: 50px;
-  width: 275px;
-  border: none;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
-}
-
 /* button a {
   text-decoration: none;
 } */
-
-header img {
-  height: auto;
-  width: auto;
-  max-width: 175px;
-  max-height: 175px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 30px;
-}
-
-header h6 a {
-  position: fixed;
-  right: 50px;
-  top: 45px;
-}
-
-header h1 {
-  padding-top: 80px;
-}
-
-.call-to-action {
-  display: flex;
-  justify-content: center;
-  margin-top: 80px;
-}
 
 /* next section */
 
 .carrieanne-image {
   background: url("/images/empoweredwoman-carrieanne.png");
   background-size: cover;
-  height: 300px;
+  height: 500px;
   width: 100%;
 }
 
@@ -186,17 +195,21 @@ header h1 {
 }
 
 .text-section {
-  height: 350px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.text-section h2 {
+  margin-bottom: 30px;
+}
+
 .greyblock-section {
   background-color: #f2f2f2;
   height: 900px;
-  margin-bottom: 20px;
+  margin-bottom: 120px;
 }
 
 .greyblock-section img {
@@ -221,11 +234,17 @@ header h1 {
 }
 
 .love-notes-section img {
-  width: 100%;
+  height: auto;
+  width: auto;
+  max-height: 160px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
 }
 
 .lovenote-images-section {
-  background: #bcb2b2;
+  background: blue;
   height: 300px;
 }
 
@@ -234,30 +253,80 @@ header h1 {
   flex-direction: column;
 }
 
-.love-notes-section img {
-  width: 100%;
-}
-
 .love-notes-section h5 {
-  font-family: "Savoy-Bold";
+  font-family: "Savoy-Light";
   font-size: 30px;
   color: black;
 }
 
-.love-notes-section .top {
+.love-notes-section .copy button {
+  margin-bottom: 100px;
+}
+
+.love-notes-section .copy {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.love-notes-section .copy .top {
+  max-width: 800px;
+  line-height: 2em;
+  margin-bottom: 20px;
+}
+
+.love-notes-section .copy .bottom {
+  margin-bottom: 40px;
+}
+
+.love-notes-section .copy * {
+  margin-bottom: 10px;
 }
 
 footer {
   font-family: "Brandon-Light", sans-serif;
   text-align: center;
   color: white;
-  background: blue;
+  background: #bcb2b2;
 }
 
+footer h1 {
+  font-family: "Savoy-Bold", serif;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+footer p {
+  margin-bottom: 40px;
+}
 footer .links {
   padding: 5px;
+  background-color: #dad1d2;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.footer-top img {
+  width: 175px;
+  margin-bottom: 60px;
+}
+
+.footer-bottom {
+  height: 300px;
+}
+
+footer button {
+  margin-bottom: 80px;
+}
+
+.sponsors {
+  margin-bottom: 80px;
 }

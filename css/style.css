@@ -1,0 +1,215 @@
+@font-face {
+  font-family: "Brandon-Bold";
+  src: url('../Brandon_bld.otf') format('opentype');
+}
+
+@@font-face {
+  font-family: "Brandon-Med";
+  src: url('../Brandon_med.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Brandon-Light";
+  src: url('../Brandon_light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Savoy-Regular";
+  src: url('../Savoy_Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Savoy-Bold";
+  src: url('../Savoy_Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Xtreem-Thin";
+  src: url('../XtreemThin.ttf') format('truetype');
+}
+
+h1 {
+  font-family: "Savoy-Regular"; serif;
+  font-size: 70px;
+  letter-spacing: 1px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "Savoy-Regular"; serif;
+  font-size: 47px;
+  color: #1f1f24;
+  text-align: center;
+  font-weight: 200;
+}
+
+h3 {
+  font-family: "Brandon-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+}
+
+h4 {
+  font-family: "Brandon-Med", sans-serif;
+  font-size: 28px;
+  letter-spacing: 1.5px;
+  color: #a67d72;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 47px;
+  font-weight: 600;
+}
+
+h5 {
+  font-family: "Xtreem-Thin", script;
+  font-size: 75px;
+  color: white;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
+h6 {
+  font-family: "Brandon-Bold", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+body {
+  padding: 20px;
+}
+
+/* header */
+
+header {
+  background-color: #bcb2b2;
+  height: 655px;
+}
+
+header button {
+
+}
+
+.compliment-section {
+  height: 100px;
+  background-color: #dad1d2;
+  /* margin-top: -20px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.compliment-box {
+  border-bottom: 2px solid white;
+  width: 275px;
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  align-items: center;
+  margin: 0 12px;
+}
+
+button {
+  background-color: #1f1f24;
+  color: white;
+  font-family: "Brandon-Bold"; sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  height: 50px;
+  width: 275px;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* button a {
+  text-decoration: none;
+} */
+
+header img {
+  height: auto;
+  width: auto;
+  max-width: 175px;
+  max-height: 175px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+header h6 a {
+  position: fixed;
+  right: 50px;
+  top: 45px;
+}
+
+header h1 {
+ padding-top: 80px;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+
+/* next section */
+
+.carrieanne-image {
+  background: url('./images/empoweredwoman-carrieanne.png');
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.carrieanne-image img {
+  padding-top: 20px;
+  width: 100vw;
+
+}
+
+.text-section {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.greyblock-section {
+  background-color: #f2f2f2;
+  height: 900px;
+}
+
+.greyblock-section img {
+  height: auto;
+  width: auto;
+  max-width: 150px;
+  max-height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.greyblock-section hr {
+  border: none
+  color: #bcb2b2;
+  line-height: 1px;
+}
